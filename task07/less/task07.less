@@ -1,0 +1,85 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #ccc;
+}
+
+.nav {
+  height: 57px;
+  width: 100%;
+  position: fixed;
+  left: 0;
+  top: 0;
+  background-color: #ffffff;
+  .nav-home {
+    position: absolute;
+    top: 50%;
+    left: 59px;
+    transform: translate3d(0, -50%, 0);
+    .icon {
+      float: left;
+      img {
+        width: 33px;
+        height: 33px;
+      }
+    }
+    .text {
+      float: left;
+      padding-left: 10px;
+      height: 36px;
+      line-height: 36px;
+      font-family: "SimHei";
+      font-size: 21px;
+      color: #000;
+    }
+  }
+  .nav-index {
+    float: right;
+    ul.nav-menu {
+      float: left;
+      position: relative;
+      padding: 0;
+      margin: 0;
+      > li {
+        height: 53px;
+        padding-left: 21px;
+        padding-right: 21px;
+        text-align: center;
+        font-size: 14px;
+        color:#787b83;
+        font-family: "Microsoft Yahei";
+        line-height: 53px;
+        display: inline-block;
+        list-style: none;
+        text-align: center;
+        &:hover{
+          border-bottom: 4px solid #e74f4d;
+          color:#e74f4d;
+        }
+      }
+    }
+    .login{
+      position: relative;
+      margin-right: 67px;
+      height:53px;
+      float: right;
+      width: 50px;
+      img{
+        width: 14px;
+        height: 17px;
+        position: absolute;
+        top:50%;
+        transform: translate3d(0,-50%,0);
+      }
+      .text{
+        font-family: "Microsoft Yahei";
+        font-size: 14px;
+        color:#e74f4d;
+        position: absolute;
+        top:50%;
+        transform: translate3d(0,-50%,0);
+        right: 0;
+      }
+    }
+  }
+}
