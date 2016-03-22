@@ -2,7 +2,7 @@ body {
   margin: 0;
   padding: 0;
   background-color: #ccc;
-  min-width: 760px;
+  min-width: 1074px;
 }
 
 select {
@@ -16,7 +16,7 @@ select::-ms-expand {
 }
 
 .nav {
-  min-width: 760px;
+  min-width: 1074px;
   z-index: 100;
   height: 57px;
   width: 100%;
@@ -343,6 +343,107 @@ select::-ms-expand {
           text-align: center;
           font-size: 13px;
           color: #818281;
+        }
+      }
+    }
+  }
+}
+
+.new-world-jumbotron {
+  width: 100%;
+  height: 565px;
+  font-family: 'Microsoft Yahei', 'Simhei', Helvetica, Arial, sans-serif;
+  .new-world-left {
+    float: left;
+    width: 66%;
+    height: 100%;
+    background: url("../img/new-world-jumbotron.jpg");
+    background-size: cover;
+    position: relative;
+    .new-world-line1 {
+      font-size: 50px;
+      color: #ffffff;
+      text-align: center;
+      padding-top: 125px;
+    }
+    .new-world-line2 {
+      font-size: 158px;
+      color: #ffffff;
+      text-align: center;
+      line-height: 128px;
+    }
+    .new-world-line3 {
+      font-size: 22px;
+      color: #ffffff;
+      text-align: center;
+      padding-top: 30px;
+      line-height: 35px;
+    }
+    .right-triangle {
+      position: absolute;
+      width: 0;
+      height: 0;
+      border-top: 15px solid transparent;
+      border-right: 30px solid #ffffff;
+      border-bottom: 15px solid transparent;
+      top: 50%;
+      transform: translate3d(0, -50%, 0);
+      right: 0;
+    }
+  }
+  .new-world-right {
+    float: left;
+    width: 34%;
+    height: 100%;
+    background-color: #ffffff;
+    .title {
+      padding-top: 160px;
+      text-align: center;
+      span {
+        font-size: 21px;
+        color: #323333;
+        font-weight: bold;
+        &.red {
+          color: #e74f4d;
+        }
+      }
+    }
+    .detail {
+      font-family: SimSun, "宋体", Heiti, "黑体", sans-serif;
+      margin-top: 25px;
+      color: #b0b0b0;
+      font-size: 12px;
+      line-height: 32px;
+      text-align: center;
+    }
+    .detail-btn {
+      width: 104px;
+      height: 31px;
+      margin-top: 50px;
+      margin-left: auto;
+      margin-right: auto;
+      line-height: 31px;
+      background-color: #ffffff;
+      border: 1px solid #e74f4d;
+      color: #e74f4d;
+      text-align: center;
+      font-size: 12px;
+    }
+    .switch {
+      float: left;
+      position: relative;
+      left: 50%;
+      transform: translate3d(-50%, 0, 0);
+      .radios {
+        display: inline-block;
+        width: 11px;
+        height: 11px;
+        background-color: #ffffff;
+        border: 1px solid #929292;
+        margin-top: 24px;
+        border-radius: 13px;
+        &.active {
+          background-color: #929292;
         }
       }
     }
