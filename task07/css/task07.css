@@ -15,6 +15,9 @@ select {
 select::-ms-expand {
   display: none;
 }
+.btn {
+  cursor: pointer;
+}
 .nav {
   min-width: 1074px;
   z-index: 100;
@@ -673,4 +676,84 @@ select::-ms-expand {
   font-size: 14px;
   text-align: center;
   line-height: 40px;
+}
+.contact {
+  width: 100%;
+  height: 358px;
+  background-color: #32363e;
+  position: relative;
+}
+.contact .contact-text {
+  padding-top: 82px;
+  color: #ffffff;
+  text-align: center;
+}
+.contact .contact-text .title {
+  font-family: 'Simhei', Helvetica, Arial, sans-serif;
+  font-size: 21px;
+}
+.contact .contact-text .detail {
+  margin-top: 5px;
+  font-size: 12px;
+  line-height: 18px;
+}
+.contact .contact-inputs {
+  float: left;
+  position: relative;
+  left: 50%;
+  margin-top: 30px;
+  -webkit-transform: translate3d(-50%, 0, 0);
+     -moz-transform: translate3d(-50%, 0, 0);
+          transform: translate3d(-50%, 0, 0);
+}
+.contact .contact-inputs input {
+  float: left;
+  width: 420px;
+  height: 40px;
+  background-color: #ffffff;
+  border: 0;
+  line-height: 40px;
+  font-size: 14px;
+  color: #aaaaaa;
+  padding-left: 10px;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+.contact .contact-inputs .contact-btn {
+  width: 80px;
+  height: 40px;
+  background-color: #6f7278;
+  line-height: 40px;
+  color: #ffffff;
+  font-size: 15px;
+  text-align: center;
+  float: left;
+}
+.contact .site-icon-group {
+  float: left;
+  position: relative;
+  margin-top: 102px;
+}
+.contact .site-icon-group img {
+  margin-left: 14px;
+  margin-right: 14px;
+}
+.footer {
+  width: 100%;
+  height: 58px;
+  background-color: #2f3039;
+}
+.footer p {
+  font-family: SimSun, "宋体", Heiti, "黑体", sans-serif;
+  font-size: 12px;
+  color: #ffffff;
+  padding-top: 20px;
+}
+.footer p:nth-child(1) {
+  float: left;
+  margin-left: 100px;
+}
+.footer p:nth-child(2) {
+  float: right;
+  margin-right: 40px;
 }
